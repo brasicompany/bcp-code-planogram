@@ -1,6 +1,6 @@
 # BCP — Code Planogram
 
-[![CI](https://github.com/gab11s/bcp-code-planogram/actions/workflows/ci.yml/badge.svg)](https://github.com/gab11s/bcp-code-planogram/actions/workflows/ci.yml)
+[![CI](https://github.com/brasicompany/bcp-code-planogram/actions/workflows/ci.yml/badge.svg)](https://github.com/brasicompany/bcp-code-planogram/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 **Give your coding agent a map, not the whole library.**
@@ -150,7 +150,7 @@ the savings above, always fresh, out of version control.
 ## Install
 
 ```bash
-python3 -m pip install git+https://github.com/gab11s/bcp-code-planogram.git
+python3 -m pip install git+https://github.com/brasicompany/bcp-code-planogram.git
 
 # or clone locally for development:
 python3 -m pip install -e .                 # core (Python only) — stdlib, no deps

@@ -62,7 +62,7 @@ roda offline, MIT.
 Reproduz em qualquer repo:
 `python3 bench.py <projeto> <arquivo-alvo>`
 
-GitHub: github.com/gab11s/bcp-code-planogram
+GitHub: github.com/brasicompany/bcp-code-planogram
 Feito pela @brasico 🇧🇷
 
 ---
@@ -95,7 +95,7 @@ A lição que levamos — e que está no README — é simples: **não versione 
 Liberamos tudo sob licença MIT: sub-1k linhas, stdlib-first, 100% local,
 reproduzível em qualquer repositório com um comando.
 
-👉 github.com/gab11s/bcp-code-planogram
+👉 github.com/brasicompany/bcp-code-planogram
 
 #AI #LLM #DeveloperTools #OpenSource #Engineering
 
@@ -185,12 +185,12 @@ Mermaid também sai pronto pra colar no GitHub/docs:
 `bcp planogram . --format mermaid`
 
 **5/**
-stdlib puro, sem deps, MIT. github.com/gab11s/bcp-code-planogram · @brasico 🇧🇷
+stdlib puro, sem deps, MIT. github.com/brasicompany/bcp-code-planogram · @brasico 🇧🇷
 
 ---
 
 ## Notas de uso
-- URL final do repo: `github.com/gab11s/bcp-code-planogram`.
+- URL final do repo: `github.com/brasicompany/bcp-code-planogram`.
 - Para o "for humans": anexe um **screenshot do treemap** (planograma.html) — é o
   visual que mais engaja. O Mermaid (`--format mermaid`) renderiza direto no README/GitHub.
 - Os números 89% / 184.781 / 20.141 vieram de arquivos grandes (servidor). Para
