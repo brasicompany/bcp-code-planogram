@@ -16,9 +16,9 @@ dependencies = []  # core is stdlib-only (ast + sqlite3)
 [project.optional-dependencies]
 # Multi-language parsing (TS/JS/TSX). Python works without these.
 treesitter = [
-    "tree-sitter>=0.21",
-    "tree-sitter-javascript",
-    "tree-sitter-typescript",
+    "tree-sitter>=0.23,<0.24",
+    "tree-sitter-javascript>=0.23,<0.24",
+    "tree-sitter-typescript>=0.23,<0.24",
 ]
 dev = ["pytest"]
 

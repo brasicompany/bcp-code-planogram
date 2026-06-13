@@ -1,0 +1,4 @@
+# Optional TS/JS/TSX parser support.
+tree-sitter>=0.23,<0.24
+tree-sitter-javascript>=0.23,<0.24
+tree-sitter-typescript>=0.23,<0.24

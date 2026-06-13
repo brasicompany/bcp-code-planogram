@@ -1,4 +1,7 @@
-# Core is stdlib-only (ast + sqlite3). Multi-language (TS/JS/TSX) is optional:
-tree-sitter>=0.21
-tree-sitter-javascript
-tree-sitter-typescript
+# BCP core is stdlib-only (ast + sqlite3).
+# No third-party dependency is required for the default Python path.
+#
+# Optional TS/JS/TSX parsing is available with:
+#   python -m pip install ".[treesitter]"
+#
+# See requirements-treesitter.txt for pinned optional parser dependencies.
