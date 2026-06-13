@@ -63,7 +63,7 @@ Reproduz em qualquer repo:
 `python3 bench.py <projeto> <arquivo-alvo>`
 
 GitHub: github.com/brasicompany/bcp-code-planogram
-Feito pela @brasico 🇧🇷
+Feito pela @brasicompany 🇧🇷
 
 ---
 
@@ -185,7 +185,7 @@ Mermaid também sai pronto pra colar no GitHub/docs:
 `bcp planogram . --format mermaid`
 
 **5/**
-stdlib puro, sem deps, MIT. github.com/brasicompany/bcp-code-planogram · @brasico 🇧🇷
+stdlib puro, sem deps, MIT. github.com/brasicompany/bcp-code-planogram · @brasicompany 🇧🇷
 
 ---
 

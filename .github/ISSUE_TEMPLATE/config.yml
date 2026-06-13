@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
   - name: Security issue
-    url: https://github.com/gab11s/bcp-code-planogram/blob/main/SECURITY.md
+    url: https://github.com/brasicompany/bcp-code-planogram/blob/main/SECURITY.md
     about: Please report vulnerabilities privately.

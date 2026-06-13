@@ -21,7 +21,7 @@ implemented in **sub-1k lines, stdlib-first, 100% local, MIT**.
   **file a product**, the **size is shelf space** (lines of code), the **color
   is the category**. See [BCP for humans](#bcp-for-humans--the-code-planogram).
 
-> Originally extracted from [BRACOPED](https://brasico.ai) (Brasico). We built a
+> Originally extracted from BRACOPED (Brasico). We built a
 > heavier static version first, measured it, found it was dead weight, and
 > replaced it with this. The numbers below are why.
 
