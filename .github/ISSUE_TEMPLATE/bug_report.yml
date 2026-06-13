@@ -1,0 +1,36 @@
+name: Bug report
+description: Report a reproducible defect in BCP
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What is broken?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Exact steps, files, and commands to reproduce the issue.
+      placeholder: |
+        1. Run ...
+        2. Index ...
+        3. Observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Python version, OS, install mode, optional tree-sitter deps.
+    validations:
+      required: true

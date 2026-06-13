@@ -1,0 +1,4 @@
+# Core is stdlib-only (ast + sqlite3). Multi-language (TS/JS/TSX) is optional:
+tree-sitter>=0.21
+tree-sitter-javascript
+tree-sitter-typescript

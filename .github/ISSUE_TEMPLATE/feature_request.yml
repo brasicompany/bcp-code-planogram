@@ -1,0 +1,29 @@
+name: Feature request
+description: Propose a focused improvement to BCP
+title: "[feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What limitation are you hitting today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: What should change?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Benchmarks, examples, or prior art that support the request.
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope and tradeoffs
+      description: Cost, added complexity, and backward compatibility concerns.

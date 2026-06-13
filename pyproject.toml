@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bcp-code-planogram"
+version = "0.1.0"
+description = "A token-efficient code map for LLM agents — give your agent a map, not the whole library."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+authors = [{ name = "Brasico" }]
+keywords = ["llm", "agents", "code-map", "repomap", "context", "ast", "tokens"]
+dependencies = []  # core is stdlib-only (ast + sqlite3)
+
+[project.optional-dependencies]
+# Multi-language parsing (TS/JS/TSX). Python works without these.
+treesitter = [
+    "tree-sitter>=0.21",
+    "tree-sitter-javascript",
+    "tree-sitter-typescript",
+]
+dev = ["pytest"]
+
+[project.scripts]
+bcp = "bcp.cli:main"
+
+[tool.setuptools]
+packages = ["bcp"]
